@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-08 20:11+0200\n"
+"PO-Revision-Date: 2024-01-08 20:10+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\orders\models.py:12
+msgid "first name"
+msgstr "الإسم الأول"
+
+#: .\orders\models.py:13
+msgid "last name"
+msgstr "الاسم الأخير"
+
+#: .\orders\models.py:14
+msgid "e-mail"
+msgstr "البريد الالكترونى"
+
+#: .\orders\models.py:15
+msgid "address"
+msgstr "عنوان"
+
+#: .\orders\models.py:16
+msgid "postal code"
+msgstr "رمز بريدي"
+
+#: .\orders\models.py:17
+msgid "city"
+msgstr "المدينة"
+
+#: .\orders\models.py:18
+msgid "created"
+msgstr "تاريخ الإتشاء"
+
+#: .\orders\models.py:19
+msgid "updated"
+msgstr "تم التحديث"
+
+#: .\orders\models.py:20
+msgid "paid"
+msgstr "تم الدفع"
+
+#: .\orders\templates\orders\order\create.html:4
+#: .\orders\templates\orders\order\create.html:9
+msgid "Checkout"
+msgstr "إتمام الشراء"
+
+#: .\orders\templates\orders\order\create.html:11
+msgid "Your order"
+msgstr "طلبك"
+
+#: .\orders\templates\orders\order\create.html:21
+#, python-format
+msgid ""
+"\n"
+"                        \"%(code)s\" (%(discount)s%% off)\n"
+"                    "
+msgstr ""
+"\n"
+"\"%(code)s\" (%(discount)s%% خصم)"
+
+#: .\orders\templates\orders\order\create.html:28
+#: .\orders\templates\orders\order\pdf.html:63
+msgid "Total"
+msgstr "المجموع الكلي"
+
+#: .\orders\templates\orders\order\create.html:32
+msgid "Place order"
+msgstr "تأكيد الطلب"
+
+#: .\orders\templates\orders\order\created.html:5
+#: .\orders\templates\orders\order\created.html:9
+msgid "Thank you"
+msgstr "شكراً لك"
+
+#: .\orders\templates\orders\order\created.html:10
+msgid "Your order has been successfully completed. Your order number is"
+msgstr "لقد تم إكمال طلبك بنجاح. رقم الطلب الخاص بك هو"
+
+#: .\orders\templates\orders\order\pdf.html:8
+msgid "Invoice no."
+msgstr "رقم الفاتورة."
+
+#: .\orders\templates\orders\order\pdf.html:13
+msgid "Bill to"
+msgstr "الفاتورة الى"
+
+#: .\orders\templates\orders\order\pdf.html:20
+msgid "Items bought"
+msgstr "العناصر التي تم شراؤها"
+
+#: .\orders\templates\orders\order\pdf.html:24
+msgid "Product"
+msgstr "منتج"
+
+#: .\orders\templates\orders\order\pdf.html:25
+msgid "Price"
+msgstr "السعر"
+
+#: .\orders\templates\orders\order\pdf.html:26
+msgid "Quantity"
+msgstr "الكمية"
+
+#: .\orders\templates\orders\order\pdf.html:27
+msgid "Cost"
+msgstr "التكلفة"
+
+#: .\orders\templates\orders\order\pdf.html:44
+msgid "Subtotal"
+msgstr "المجموع الفرعى"
+
+#: .\orders\templates\orders\order\pdf.html:52
+msgid "coupon"
+msgstr "قسيمة"
+
+#: .\orders\templates\orders\order\pdf.html:53
+msgid "off"
+msgstr "خصم"
+
+#: .\orders\templates\orders\order\pdf.html:70
+msgid "Paid"
+msgstr "مدفوع"
+
+#: .\orders\templates\orders\order\pdf.html:70
+msgid "Pending paymen"
+msgstr "في انتظار الدفع"
+
+#: .\orders\urls.py:9
+msgid "create/"
+msgstr "تاريخ الإتشاء"
+
+#~ msgid "discount"
+#~ msgstr "الخصم"
